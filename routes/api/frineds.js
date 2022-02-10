@@ -7,14 +7,14 @@ const {
 } = require('../../controllers/friend-controller');
 
 // /api/friends/<UserId>
-router.route('/:userId').post(addComment);
+// router.route('/:userId').post(addFriend);
 
 // /api/friends/<userId>/<friendId>
 
 router
   .route('/:userId/:friendId')
   .put(addReply)
-  .delete(removeComment);
+  // .delete(removeFriend);
 
 // /api/friends/<userId>/<friendId>/<replyId>
 router.route('/:userId/:friendId/:replyId').delete(removeReply);
