@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const routes = require('./routes');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -16,6 +17,6 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/socialdb'
 // Use this to log mongo queries being executed!
 mongoose.set('debug', true);
 
-app.use(require('./routes'));
+app.use(routes);
 
 app.listen(PORT, () => console.log(`🌍 Connected on localhost:${PORT}`));
