@@ -9,6 +9,7 @@ In addition to using the Express.js (Links to an external site.) and Mongoose (L
 
 ## Installation
 npm install
+
 MongoDB
 
 ## Usage
@@ -16,11 +17,17 @@ npm start
 
 ## Technologies
 JavaScript
+
 MongoDB
+
 Insomnia
+
 Node.Js
+
 Express.Js
+
 Mongoose
+
 
 ## Preview
 ![Screenshot](video.gif) 
