@@ -31,3 +31,8 @@ Mongoose
 
 ## Preview
 ![Screenshot](video.gif) 
+
+##Link to video
+Link to vidos: 
+
+[Walkthough video] :https://youtu.be/JFUoX5OHHN4
