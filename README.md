@@ -34,4 +34,4 @@ Mongoose
 
 
 ##Link to video
-[Walkthough video] :https://youtu.be/JFUoX5OHHN4
+https://youtu.be/JFUoX5OHHN4
